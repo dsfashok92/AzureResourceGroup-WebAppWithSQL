@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: john
+  name: Default
   demands:
-   - agent.name -equals LinuxMachine
+   - agent.name -equals LinuxMachine1
 
 variables:
   buildConfiguration: 'Release'
